@@ -16,8 +16,8 @@ const sketch = () => {
 
     console.log(width);
 
-    const cx = width * 1;
-    const cy = height * 1;
+    const cx = width * 0.5;
+    const cy = height * 0.5;
     // const cx = 0;
     // const cy = 0;
     const w = width * 0.01;
@@ -25,7 +25,7 @@ const sketch = () => {
     let x, y;
 
     const num = 40;
-    const radius = width * 0.6;
+    const radius = width * 0.3;
 
     for (let i = 0; i < num; i++) {
       const slice = math.degToRad(360 / num);
